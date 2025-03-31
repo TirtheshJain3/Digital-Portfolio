@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Tirthesh Yogesh Khdakpurkar - Electronics and Telecommunication Engineering student at MITAOE">
+    <title>Tirthesh Khdakpurkar | E&T Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themes.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div id="particles-js"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner-inner"></div>
+        </div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">TK</span>
+                <span class="logo-full">Tirthesh Khadakpurkar</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-theme-toggle">
+                <span>Theme</span>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate__fadeInDown">Hi, I'm <span class="highlight">Tirthesh Khadakpurkar</span></h1>
+                    <h2 class="animate__fadeInDown animate__delay-1">Electronics & Telecommunication Engineer</h2>
+                    <div class="typing-text animate__fadeIn animate__delay-2">
+                        <span id="typed-text"></span><span class="cursor">|</span>
+                    </div>
+                    <div class="hero-buttons animate__fadeInUp animate__delay-3">
+                        <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-social animate__fadeIn animate__delay-4">
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image-container">
+                      <img src="tirth.jpg" alt="Your Name" class="profile-image">
+                      <div class="profile-image-border"></div>
+                      <div class="profile-image-dots"></div>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>C Programming</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>HTML</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Electronics -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-microchip"></i> Electronics</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>Circuit Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Arduino</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>PCB Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Other Skills -->
+                    <div class="skill-category">
+                        <h3><i class="fas fa-cogs"></i> Other Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span>Embedded Systems</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            
+                            </div>
+                            <div class="skill-item">
+                                <span>Green Energy</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3>MIT Academy of Engineering (MITAOE), Pune</h3>
+                            <p>Bachelor of Technology in Electronics and Telecommunication Engineering</p>
+                            <p>CGPA: 7.43/10 (Current)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary Education</h3>
+                            <p>Science Stream (PCM)</p>
+                            <p>Percentage: 78%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>Secondary School Education</h3>
+                            <p>Percentage: 91.6%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/smart-home.jpg" alt="Smart Home Lighting System">
+                            <div class="project-overlay">
+                                <h3>Smart Home Lighting System</h3>
+                                <p>Arduino-based automated lighting control</p>
+                                <a href="projects.html#smart-home" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Home Lighting</h3>
+                            <div class="project-tech">
+                                <span>Arduino</span>
+                                <span>IoT</span>
+                                <span>C++</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/audio-amp.jpg" alt="Audio Amplifier">
+                            <div class="project-overlay">
+                                <h3>Audio Amplifier</h3>
+                                <p>High-quality audio amplification circuit</p>
+                                <a href="projects.html#audio-amp" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Audio Amplifier</h3>
+                            <div class="project-tech">
+                                <span>Circuit Design</span>
+                                <span>PCB</span>
+                                <span>Analog</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/green-energy.jpg" alt="Green Energy Solutions">
+                            <div class="project-overlay">
+                                <h3>Green Energy Solutions</h3>
+                                <p>Research on affordable renewable energy</p>
+                                <a href="projects.html#green-energy" class="btn btn-small">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Green Energy</h3>
+                            <div class="project-tech">
+                                <span>Renewable</span>
+                                <span>Sustainability</span>
+                                <span>Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <a href="projects.html" class="btn btn-outline">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What People Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content">
+                            <p>"Tirthesh demonstrated exceptional skills in our project. His ability to solve complex problems with simple, efficient solutions is remarkable."</p>
+                            <div class="testimonial-author">
+                                <img src="images/testimonials/prof1.jpg" alt="Professor">
+                                <div>
+                                    <h4>Dr.Mahesh Gaudar</h4>
+                                    <p>Professor, MITAOE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Working with Tirthesh on the audio amplifier project was a great experience. His attention to detail and technical knowledge produced outstanding results."</p>
+                            <div class="testimonial-author">
+                                <img src="images/testimonials/team1.jpg" alt="Team Member">
+                                <div>
+                                    <h4>Aayush Nawale</h4>
+                                    <p>Project Team Member</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <div class="container">
+                <h2>Interested in collaborating on a project?</h2>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Tirthesh Khadakpurkar</h3>
+                    <p>Electronics and Telecommunication Engineering student passionate about embedded systems, programming, and green energy solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Circuit Design</li>
+                        <li>C Programming</li>
+                        <li>Python</li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> tirtheshjain76@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 9423915164</li>
+                        <li><i class="fas fa-map-marker-alt"></i> MITAOE, Alandi, Pune, Maharashtra</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Tirthesh Yogesh Khadakpurkar. All rights reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by Tirthesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="particles.js"></script>
+    <script src="main.js"></script>
+    <script>
+        // Typing animation for hero section
+        const typedTextSpan = document.getElementById("typed-text");
+        const textArray = [
+             
+            "C Programming Enthusiast",
+            "Python Developer",
+            "Green Energy Researcher"
+        ];
+        const typingDelay = 100;
+        const erasingDelay = 50;
+        const newTextDelay = 2000;
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } else {
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            } else {
+                textArrayIndex++;
+                if(textArrayIndex>=textArray.length) textArrayIndex=0;
+                setTimeout(type, typingDelay + 500);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(type, 1500);
+        });
+    </script>
+</body>
+</html>

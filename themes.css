@@ -1,0 +1,93 @@
+/* Theme Switching Styles */
+.theme-toggle {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: var(--border-color);
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 1.5rem;
+}
+
+.theme-toggle i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.theme-toggle .fa-moon {
+    left: 6px;
+    color: #333;
+}
+
+.theme-toggle .fa-sun {
+    right: 6px;
+    color: #ffcc00;
+    opacity: 0;
+}
+
+.dark-theme .theme-toggle {
+    background-color: #444;
+}
+
+.dark-theme .theme-toggle .fa-moon {
+    opacity: 0;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.dark-theme .theme-toggle .fa-sun {
+    opacity: 1;
+    transform: translateY(-50%) rotate(0deg);
+}
+
+/* Mobile Theme Toggle */
+.mobile-theme-toggle .theme-toggle {
+    margin-left: 1rem;
+}
+
+/* Theme Specific Styles */
+.light-theme {
+    --primary-color: #3a86ff;
+    --secondary-color: #8338ec;
+    --accent-color: #ff006e;
+    --text-color: #333;
+    --text-light: #777;
+    --bg-color: #f8f9fa;
+    --card-bg: #fff;
+    --border-color: #e0e0e0;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme {
+    --primary-color: #3a86ff;
+    --secondary-color: #8338ec;
+    --accent-color: #ff006e;
+    --text-color: #f8f9fa;
+    --text-light: #adb5bd;
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --border-color: #333;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Smooth Theme Transition */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.header, .footer, .skills, .featured-projects, .testimonials, .cta {
+    transition: background-color 0.5s ease;
+}
+
+.nav ul li a, .logo-full, .hero-content h1, .hero-content h2, .hero-content p, 
+.section-title, .skill-category h3, .timeline-content h3, .project-info h3, 
+.testimonial-content p, .footer-col h3, .footer-col ul li a, .contact-info li {
+    transition: color 0.5s ease;
+}
+
+.skill-category, .timeline-content, .project-card, .testimonial-content {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}

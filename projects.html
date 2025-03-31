@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Tirthesh Khadakpurkar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themes.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div id="particles-js"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">TK</span>
+                <span class="logo-full">Tirthesh Khadakpurkar</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-theme-toggle">
+                <span>Theme</span>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Projects Hero -->
+        <section class="projects-hero">
+            <div class="container">
+                <h1 class="animate__fadeInDown">My Projects</h1>
+                <p class="animate__fadeIn animate__delay-1">Explore my work in electronics, programming, and green energy solutions</p>
+                <div class="projects-filter animate__fadeInUp animate__delay-2">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="electronics">Electronics</button>
+                    <button class="filter-btn" data-filter="programming">Programming</button>
+                    <button class="filter-btn" data-filter="energy">Green Energy</button>
+                    <button class="filter-btn" data-filter="iot">IoT</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-container" id="projects-container">
+                    <!-- Projects will be loaded dynamically from projects.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Modal -->
+        <div class="project-modal" id="project-modal">
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="" alt="" id="modal-project-image">
+                    </div>
+                    <div class="modal-info">
+                        <h2 id="modal-project-title"></h2>
+                        <div class="project-meta">
+                            <span class="project-category" id="modal-project-category"></span>
+                            <span class="project-date" id="modal-project-date"></span>
+                        </div>
+                        <div class="project-tech-used">
+                            <h3>Technologies Used</h3>
+                            <div class="tech-tags" id="modal-project-tech"></div>
+                        </div>
+                        <div class="project-description">
+                            <h3>Project Description</h3>
+                            <p id="modal-project-description"></p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul id="modal-project-features"></ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" id="modal-project-link" target="_blank">View Project</a>
+                            <a href="#" class="btn btn-outline" id="modal-project-code" target="_blank">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Tirthesh Khadakpurkar</h3>
+                    <p>Electronics and Telecommunication Engineering student passionate about embedded systems, programming, and green energy solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Embedded Systems</li>
+                        <li>Circuit Design</li>
+                        <li>C Programming</li>
+                        <li>Python</li>
+                        <li>IoT Development</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> tirtheshjain76@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 9423915164</li>
+                        <li><i class="fas fa-map-marker-alt"></i> MITAOE, Alandi, Pune, Maharashtra</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Tirthesh Yogesh Khadakpurkar. All rights reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by Tirthesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="particles.js"></script>
+    <script src="main.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
