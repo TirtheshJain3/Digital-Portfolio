@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Smart Home Lighting System',
             category: 'iot',
             date: 'May 2023',
-            image: 'images/projects/smart-home.jpg',
+            image: 'smart home lighting system.jpeg',
             description: 'An Arduino-based smart home lighting system that automatically adjusts brightness based on ambient light and occupancy. The system can be controlled remotely via a mobile app and includes energy monitoring features.',
             features: [
                 'Automatic brightness adjustment based on ambient light',
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Audio Amplifier Circuit',
             category: 'electronics',
             date: 'December 2022',
-            image: 'images/projects/audio-amp.jpg',
+            image: 'audio amplifier.jpg',
             description: 'Designed and built a high-quality audio amplifier circuit with 50W output power. The amplifier features low distortion, wide frequency response, and multiple input options.',
             features: [
                 '50W RMS output power',
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Green Energy Solutions',
             category: 'energy',
             date: 'Ongoing',
-            image: 'images/projects/green-energy.jpg',
+            image: 'green.jpg',
             description: 'Research project focused on developing affordable and efficient green energy solutions for rural areas. Exploring solar, wind, and hybrid systems with energy storage options.',
             features: [
                 'Cost analysis of renewable energy systems',
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'C Programming Projects',
             category: 'programming',
             date: '2021 - 2023',
-            image: 'images/projects/c-programming.jpg',
+            image: 'C.jpg',
             description: 'Collection of various projects implemented in C programming language, including data structures, algorithms, and system programming concepts.',
             features: [
                 'Implementation of data structures',
